@@ -34,6 +34,19 @@ JSON.stringify('[bad json'); //=> parse error
 
 `npm test` or `test/run`.
 
+Output should look like:
+
+```
+me@host> test/run
+2020-03-12T14:17:21|INFO|***************************
+2020-03-12T14:17:21|INFO|Jasmine ExtendScript Runner
+2020-03-12T14:17:21|INFO|***************************
+2020-03-12T14:17:22|WARN|To prevent odd errors, usually methods not being defined, login into Adobe Creative Cloud and verify all modal dialog boxes are closed. If tests are not running as expected, try restarting the application.
+2020-03-12T14:17:22|INFO|Loading all specs in /Users/me/projects/extendscript-json/test/spec
+2020-03-12T14:17:24|INFO|26 specs, 0 failures
+2020-03-12T14:17:24|INFO|Finished in 0.016 seconds
+```
+
 # NPM Release Tasks
 
 1. Update `package.json` version number
