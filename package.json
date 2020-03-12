@@ -1,0 +1,33 @@
+{
+  "name": "extendscript-json",
+  "version": "0.0.1",
+  "description": "Adobe ExtendScript compatible JSON library.",
+  "main": "index.jsx",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theasci/extendscript-json.git"
+  },
+  "keywords": [
+    "adobe",
+    "extendscript",
+    "json",
+    "json2"
+  ],
+  "author": "Shawn Pyle <shawn.pyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theasci/extendscript-json/issues"
+  },
+  "devDependencies": {
+    "extendscript-repl": "0.0.3",
+    "jasminejsx": "^0.2.0"
+  },
+  "homepage": "https://github.com/theasci/extendscript-json#readme"
+}
