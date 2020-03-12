@@ -17,6 +17,11 @@ Add the following to any ExtendScript (`*.jsx`) file where JSON availability is 
 var Global = Global || {};
 Global.rootPath = new File($.fileName).parent;
 $.evalFile(Global.rootPath + '/node_modules/extendscript-json/index.jsx');
+```
+
+# Usage 
+
+```js
 var serialized = JSON.stringify({"a": 1, "test it":[1,'2']});
 var parsed = JSON.parse(serialized);
 parsed.a; //=> 1
