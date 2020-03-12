@@ -1,6 +1,6 @@
 # Overview
 
-extendscript-json provides a [standalone JSON library](https://github.com/douglascrockford/JSON-js/blob/master/json2.js) that works with [Adobe ExtendScript](https://www.adobe.com/devnet/scripting.html).
+extendscript-json provides a standalone JSON library that works with [Adobe ExtendScript](https://www.adobe.com/devnet/scripting.html).
 
 # Installation
 
@@ -59,4 +59,4 @@ me@host> test/run
 
 # Thanks
 
-A big thank you to [@douglascrockford](https://github.com/douglascrockford) for making and maintaining this excellent library.
+A big thank you to [@douglascrockford](https://github.com/douglascrockford) for making and maintaining [the JSON2 library](https://github.com/douglascrockford/JSON-js/blob/master/json2.js).
