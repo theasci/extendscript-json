@@ -1,6 +1,6 @@
 # Overview
 
-extendscript-json provides a [standalone JSON library](https://github.com/douglascrockford/JSON-js/blob/master/json2.js), thanks [@douglascrockford](https://github.com/douglascrockford), that works with [Adobe ExtendScript](https://www.adobe.com/devnet/scripting.html).
+extendscript-json provides a [standalone JSON library](https://github.com/douglascrockford/JSON-js/blob/master/json2.js) that works with [Adobe ExtendScript](https://www.adobe.com/devnet/scripting.html).
 
 # Installation
 
@@ -43,3 +43,7 @@ JSON.stringify('[bad json'); //=> parse error
 1. Check them all into the repository.
 1. `git tag -a <version> -m <version>; git push --tags`
 1. `npm publish` to deploy the release to npm.
+
+# Thanks
+
+A big thank you to [@douglascrockford](https://github.com/douglascrockford) for making and maintaining this excellent library.
