@@ -3,4 +3,4 @@ Global.extenscriptJsonRootPath = new File($.fileName).parent;
 Global.rootPath = Global.rootPath || Global.extenscriptJsonRootPath;
 
 //Load libraries
-$.evalFile(Global.rootPath + '/lib/json2.js');
+$.evalFile(Global.extenscriptJsonRootPath + '/lib/json2.js');

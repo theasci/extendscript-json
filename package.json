@@ -1,6 +1,6 @@
 {
   "name": "extendscript-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adobe ExtendScript compatible JSON library",
   "main": "index.jsx",
   "directories": {
